@@ -1,7 +1,7 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Tab 2
+      About
     </ion-title>
   </ion-toolbar>
 </ion-header>
@@ -13,5 +13,102 @@
     </ion-toolbar>
   </ion-header>
 
-  <app-explore-container name="Tab 2 page"></app-explore-container>
+  <ion-card>
+    <img src= "assets/quadroplets.jpg">
+    <ion-card-header>
+      <ion-card-subtitle>Our Love</ion-card-subtitle>
+      <ion-card-title>  The Science of Cute: How Cuteness Makes Us Love Our Dogs</ion-card-title>
+    </ion-card-header>
+  
+    <ion-card-content>
+      Think about the naughtiest thing your dog ever did. For me, it’s the time my dog Ralph got into the kitchen cupboard while I was out and tossed a bag of flour all over the house. I was frustrated when I came home to a find flour ground into the carpet, but then Ralph looked up at me with those big, round eyes, flour dusting her adorable nose, her sweet, soft ears flopping over as she tilted her head…how could I stay mad at a face like that?
+
+      <br><br>Cuteness. It’s what makes us squee over puppy pics and rush to forgive our pets for the occasional naughty misstep. But why are dogs so cute? What is it about man’s best friend that turns even the toughest tough guy into a babytalking fool every time his dog rolls over for a belly rub? It turns out the science of cute is fascinating stuff.
+    
+    </ion-card-content>
+  </ion-card>
+  
+  <ion-card>
+    <ion-item>
+      <ion-label>What Makes a Dog Cute</ion-label>
+      <ion-button href="https://www.rover.com/blog/science-cute-dogs/">>View</ion-button>
+    </ion-item>
+
+    <img src= "assets/cute1.jpg">
+    <ion-card-content>
+      To answer the question, “Why are dogs so cute?” we have to start by identifying what cuteness looks like.
+      <br><br>
+      Of course, we can all name cuteness when we see it (our own beloved pets being the cutest things in the whole wide world, of course). But there’s 
+    actually a recognized list of characteristics that determine “cute,” all fitting under the German word kinderschema, or baby schema 
+    </ion-card-content>
+  </ion-card><br><br>
+
+
+
+  <ion-card>
+    <ion-card-header>
+      <ion-card-subtitle>The developer</ion-card-subtitle>
+    </ion-card-header>
+    </ion-card>
+  <!-- codes for Avatar, Chips, Image, item, Card -->
+  <div class="card-background-page">
+    <ion-card>
+      <ion-item>
+        <ion-avatar class="avatar">
+        <img src="assets/algen.jpg">
+        </ion-avatar>
+      </ion-item>
+        <div class="card-title">Algen Carian</div>
+        </ion-card>
+        </div>
+   
+      <ion-list>
+        <ion-item *ngFor="let item of [1,]; let i = index">
+          <ion-avatar slot="start">
+            <ion-img src="assets/art.png"></ion-img>
+            </ion-avatar>
+  
+            <ion-label>Artist,Developer</ion-label>
+            <ion-chip color="success" outline="true">
+              <ion-label>Just Click</ion-label>
+              <ion-icon name="heart-circle-outline"></ion-icon>
+            </ion-chip>
+        </ion-item>
+      </ion-list>
+
+      <ion-list>
+        <ion-list-header> Follow my Social Media account</ion-list-header>
+        <ion-item>
+          <ion-thumbnail slot="start">
+            <img src="assets/facebook.png">
+          </ion-thumbnail>       
+          <ion-label>
+            <h3>My Facebook</h3></ion-label>
+            <ion-button href="https://www.facebook.com/profile.php?id=100009259596781">click here</ion-button>
+        </ion-item>
+        <ion-item>
+          <ion-thumbnail slot="start">
+            <img src="assets/ig.png">
+          </ion-thumbnail>         
+          <ion-label>
+            <h3>My Instagram</h3>
+            </ion-label>
+          <ion-button href="https://www.instagram.com/carianalgen/">click here</ion-button>
+        </ion-item>
+        <ion-item>
+          <ion-thumbnail slot="start">
+            <img src="assets/twitter.png">
+          </ion-thumbnail>   
+          <ion-label >
+            <h3>My Twitter</h3>            
+          </ion-label>
+          <ion-button href="https://twitter.com/Algenaticx">click here</ion-button>
+        </ion-item>
+  </ion-list>
+
+
+  
+  
+  
+
 </ion-content>
